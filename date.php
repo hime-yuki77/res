@@ -153,7 +153,7 @@ color: lime!important;
 <div style="text-align: center;display: flex;align-items: center;justify-content: center;align-content: center;">
 <a href="mailto:combetohct@yahoo.com" class="fa fa-envelope"></a>
 <a href="https://www.facebook.com/combet.ohct" class="fa fa-facebook"></a>
-<a href="?" style="font-size: 2rem;text-shadow: 0px 0px 10px #00bfff;"><span>Demon Rubish WebShell</span></a>
+<a href="?" style="font-size: 2rem;text-shadow: 0px 0px 10px #00bfff;"><span>D</span></a>
 <a href="https://wa.me/6281327890613" class="fa fa-whatsapp"></a>
 <a href="https://t.me/combetohct" class="fa fa-telegram"></a> 
 </div>
@@ -277,9 +277,9 @@ Lw:
 </table>
 <h5 style="color: #31ed06;">
 <font>&copy; Copyright 2022</font>
-<font style="color: #00bfff;">Mr.Combet</font>
+<font style="color: #00bfff;">.</font>
 <font>Powered by </font>
-<font style="color: #00bfff;">One Hat Cyber Team</font>
+<font style="color: #00bfff;">.</font>
 </h5>
 <?php mR: ?> 
 </article>
