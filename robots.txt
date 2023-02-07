@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+
+Sitemap: https://kpe.dishub.ntbprov.go.id/public/slot-tergacor/sitemap.xml
